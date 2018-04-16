@@ -2,6 +2,8 @@
 @import another/module
 /* @import another/underscore */
 @import another/underscore
+/* @import another/_underscore */
+@import another/_underscore
 /* @import ~sass/underscore */
 @import ~sass/underscore
 // Import a module with a dot in its name
@@ -13,3 +15,10 @@
 @import ~animate.css/animate
 /* @import url(http://example.com/something/from/the/interwebs); */
 @import url(http://example.com/something/from/the/interwebs);
+/* scoped import @import language */
+.scoped-imporr
+  @import language
+// The local util file should take precedence over Node's util module
+// See https://github.com/webpack-contrib/sass-loader/issues/556
+/* @import util */
+@import util
