@@ -2,7 +2,7 @@
 @import "another/module";
 /* @import "another/underscore"; */
 @import "another/underscore";
-/* @import "another/underscore"; */
+/* @import "another/_underscore"; */
 @import "another/_underscore";
 /* @import "~scss/underscore"; */
 @import "~scss/underscore";
@@ -10,9 +10,6 @@
 // @see https://github.com/webpack-contrib/sass-loader/issues/167
 /* @import "~scss/some.module"; */
 @import "~scss/some.module";
-// @see https://github.com/webpack-contrib/sass-loader/issues/360
-/* @import "~animate.css/animate"; */
-@import "~animate.css/animate";
 /* @import url(http://example.com/something/from/the/interwebs); */
 @import url(http://example.com/something/from/the/interwebs);
 /* scoped import @import "language"; */
@@ -21,4 +18,9 @@
 }
 // The local util file should take precedence over Node's util module
 // See https://github.com/webpack-contrib/sass-loader/issues/556
+/* @import "util"; */
 @import "util";
+/* @import "~module"; */
+@import "~module";
+/* @import "~another"; */
+@import "~another";
