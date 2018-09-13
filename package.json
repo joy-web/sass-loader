@@ -1,6 +1,6 @@
 {
   "name": "sass-loader-joy-vendor",
-  "version": "7.1.1",
+  "version": "7.1.2",
   "description": "Sass loader for webpack",
   "author": "J. Tangelder",
   "license": "MIT",
@@ -57,7 +57,7 @@
     "node": ">= 6.9.0 || >= 8.9.0"
   },
   "peerDependencies": {
-    "node-sass-vendor": "^4.8.3",
+    "node-sass-vendor": "^4.9.3",
     "webpack": "^3.0.0 || ^4.0.0"
   },
   "keywords": [
