@@ -1,6 +1,6 @@
 {
   "name": "sass-loader-joy-vendor",
-  "version": "7.1.0",
+  "version": "7.1.1",
   "description": "Sass loader for webpack",
   "author": "J. Tangelder",
   "license": "MIT",
@@ -41,7 +41,7 @@
     "eslint-plugin-jsdoc": "^2.4.0",
     "file-loader": "^0.11.2",
     "mocha": "^3.0.2",
-    "node-sass-vendor": "4.8.3",
+    "node-sass-vendor": "4.9.3",
     "mock-require": "^3.0.1",
     "nyc": "^11.0.2",
     "raw-loader": "^0.5.1",
